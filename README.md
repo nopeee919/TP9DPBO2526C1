@@ -113,3 +113,73 @@ MVP_Kandidat/
 1. Klik **Hapus** pada baris tabel → dialog konfirmasi → POST `action=hapus` + `id`.
 2. Entry point memanggil `hapusKandidat(id)` / `hapusLowongan(id)`.
 3. Model menjalankan `DELETE ... WHERE id` → redirect ke daftar.
+
+---
+
+## 3. Dokumentasi
+
+### 3.1 Modul Kandidat
+
+**Tampilan awal**
+
+![Tampilan awal kandidat](dokumentasi/kandidat_awal.png)
+
+**Tambah kandidat**
+
+Form tambah kandidat:
+
+![Form tambah kandidat](dokumentasi/tambah_kandidat.png)
+
+Hasil setelah ditambah:
+
+![Hasil tambah kandidat](dokumentasi/hasil_tambah_kandidat.png)
+
+**Ubah kandidat**
+
+Form ubah kandidat (data sudah terisi):
+
+![Form ubah kandidat](dokumentasi/ubah_kandidat.png)
+
+Hasil setelah diubah:
+
+![Hasil ubah kandidat](dokumentasi/hasil_ubah_kandidat.png)
+
+**Hapus kandidat**
+
+![Hapus kandidat](dokumentasi/hapus_kandidat.png)
+
+### 3.2 Modul Lowongan
+
+**Tampilan awal**
+
+![Tampilan awal lowongan](dokumentasi/lowongan_awal.png)
+
+**Tambah lowongan**
+
+Form tambah lowongan:
+
+![Form tambah lowongan](dokumentasi/tambah_lowongan.png)
+
+Hasil setelah ditambah:
+
+![Hasil tambah lowongan](dokumentasi/hasil_tambah_lowongan.png)
+
+**Ubah lowongan**
+
+Form ubah lowongan (data sudah terisi):
+
+![Form ubah lowongan](dokumentasi/ubah_lowongan.png)
+
+Hasil setelah diubah:
+
+![Hasil ubah lowongan](dokumentasi/hasil_ubah_lowongan.png)
+
+**Hapus lowongan**
+
+![Hapus lowongan](dokumentasi/hapus_lowongan.png)
+
+### 3.3 Video Demo
+
+Rekaman layar yang menunjukkan seluruh alur CRUD pada kedua modul:
+
+[Tonton screenrecord.mp4](dokumentasi/screenrecord.mp4)
